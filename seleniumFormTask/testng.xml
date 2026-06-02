@@ -38,7 +38,6 @@ public class AutomationTest {
                 "student",
                 "Password123");
     }
-
     @AfterTest
     public void closeBrowser() {
         driver.quit();
